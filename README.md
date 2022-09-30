@@ -1,4 +1,4 @@
-# navigationar
+# FindRoom - Navigation AR
 
 A new Flutter project.
 

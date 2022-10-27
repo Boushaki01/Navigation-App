@@ -4,4 +4,3 @@ import 'package:navigationar/application.dart';
 void main() {
   runApp(const Application());
 }
-

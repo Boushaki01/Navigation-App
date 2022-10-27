@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:navigationar/style/style.dart';
+import 'menu_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -73,7 +74,14 @@ class LoginPage extends StatelessWidget {
                       backgroundColor: orangePrimary,
                     ),
                     child: const Text('Login'),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const MenuPage(),
+                        ),
+                      );
+                    },
                   ),
                   const SizedBox(
                     height: 16,
